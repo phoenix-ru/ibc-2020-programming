@@ -14,6 +14,7 @@ int readNumber() {
   return userNumber;
 }
 
+// Function checks if number is prime
 int checkIfNumberIsPrime(int number) {
   if (number <= 0) {
     return -1;
